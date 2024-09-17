@@ -21,17 +21,6 @@ public class Student {
     private String address;
 
     @ManyToOne
-    @JoinColumn(name = "bid", referencedColumnName = "bid")
+    @JoinColumn(name = "bid", referencedColumnName = "bid", nullable = false)
     private Batch batch;
-
-    @Override
-    public String toString() {
-        return "Student{" +
-                "sid=" + sid +
-                ", sname='" + sname + '\'' +
-                ", age=" + age +
-                ", address='" + address + '\'' +
-                '}';
-    }
-
 }

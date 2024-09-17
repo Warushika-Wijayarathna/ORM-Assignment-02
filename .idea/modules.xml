@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/HQL.iml" filepath="$PROJECT_DIR$/HQL.iml" />
       <module fileurl="file://$PROJECT_DIR$/ORM-Assignment-02.iml" filepath="$PROJECT_DIR$/ORM-Assignment-02.iml" />
       <module fileurl="file://$PROJECT_DIR$/SQL.iml" filepath="$PROJECT_DIR$/SQL.iml" />
     </modules>

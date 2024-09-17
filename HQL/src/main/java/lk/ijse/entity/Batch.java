@@ -22,14 +22,4 @@ public class Batch {
 
     @OneToMany(mappedBy = "batch", fetch = FetchType.LAZY)
     private List<Student> students;
-
-    @Override
-    public String toString() {
-        return "Batch{" +
-                "bid=" + bid +
-                ", bname='" + bname + '\'' +
-                ", bdescription='" + bdescription + '\'' +
-                '}';
-    }
-
 }
