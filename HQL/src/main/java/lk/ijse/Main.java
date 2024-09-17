@@ -50,15 +50,6 @@ public class Main {
         Transaction transaction2 = session2.beginTransaction();
 
 
-        //HQL Query - INSERT(not recommended)
-        Query query = session2.createQuery("INSERT INTO Student (sid, sname, age, address) SELECT :sid, :sname, :age, :address FROM Student");
-        query.setParameter("sid", 1004);
-        query.setParameter("sname", "Kamal Perera");
-        query.setParameter("age", 26);
-        query.setParameter("address", "Kurunegala");
-
-        System.out.println("Inserted : "+query.executeUpdate());
-
         //HQL Query - DELETE
         Query query1 = session2.createQuery("DELETE FROM Student WHERE sid=:sid");
         query1.setParameter("sid", 1004);
@@ -66,14 +57,36 @@ public class Main {
         System.out.println("Deleted : "+query1.executeUpdate());
 
         //HQL Query - UPDATE
+        Query query2 = session2.createQuery("UPDATE Student SET sname=:sname WHERE sid=:sid");
+        query2.setParameter("sname", "Kamal Perera");
+        query2.setParameter("sid", 1003);
 
+        System.out.println("Updated : "+query2.executeUpdate());
 
         // HQL Query - search by column name
+        Query query3 = session2.createQuery("SELECT sid, sname, age FROM Student WHERE sid=?1");
+        query3.setParameter(1, 1001);
 
+        Object[] obj1 = (Object[]) query3.uniqueResult();
 
+        System.out.println("Student : "+obj1[0]+" "+obj1[1]+" "+obj1[2]);
+
+        // HQL Query - get multiple columns
+        Query query4 = session2.createQuery("SELECT sid, sname FROM Student");
+
+        List<Object[]> objects = query4.list();
+        for (Object[] obj : objects) {
+            System.out.println("Student : "+obj[0]+" "+obj[1]);
+        }
 
         //HQL Query - join query
+        Query query5 = session2.createQuery("SELECT s.sid, s.sname, s.age, s.address, b.bname FROM Student s INNER JOIN s.batch b");
 
+        List<Object[]> objects1 = query5.list();
+
+        for (Object[] obj : objects1) {
+            System.out.println("Student : "+obj[0]+" "+obj[1]+" "+obj[2]+" "+obj[3]+" "+obj[4]);
+        }
 
         transaction2.commit();
         session2.close();

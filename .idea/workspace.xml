@@ -4,24 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="16dff02d-223b-47c4-aa8d-fa60069d6c2d" name="Changes" comment="Hibernate-SQL">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HQL.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HQL/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HQL/src/main/java/lk/ijse/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HQL/src/main/java/lk/ijse/config/FactoryConfiguration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HQL/src/main/java/lk/ijse/entity/Batch.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HQL/src/main/java/lk/ijse/entity/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HQL/src/main/resources/hibernate.cfg.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+    <list default="true" id="16dff02d-223b-47c4-aa8d-fa60069d6c2d" name="Changes" comment="Hibernate-HQL in process 1">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SQL.iml" beforeDir="false" afterPath="$PROJECT_DIR$/SQL.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SQL/src/main/java/lk/ijse/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/SQL/src/main/java/lk/ijse/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SQL/src/main/java/lk/ijse/entity/Batch.java" beforeDir="false" afterPath="$PROJECT_DIR$/SQL/src/main/java/lk/ijse/entity/Batch.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SQL/src/main/java/lk/ijse/entity/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/SQL/src/main/java/lk/ijse/entity/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HQL/src/main/java/lk/ijse/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/HQL/src/main/java/lk/ijse/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,6 +66,9 @@
       <recent name="$PROJECT_DIR$/SQL/src/main/java/lk/ijse" />
       <recent name="$PROJECT_DIR$/SQL/src/main/resources" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="lk.ijse" />
+    </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -90,7 +78,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1726560923692</updated>
-      <workItem from="1726560924875" duration="8820000" />
+      <workItem from="1726560924875" duration="13698000" />
     </task>
     <task id="LOCAL-00001" summary="Hibernate-SQL">
       <option name="closed" value="true" />
@@ -100,7 +88,15 @@
       <option name="project" value="LOCAL" />
       <updated>1726565001165</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Hibernate-HQL in process 1">
+      <option name="closed" value="true" />
+      <created>1726571933870</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1726571933870</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -109,6 +105,7 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Hibernate-SQL" />
-    <option name="LAST_COMMIT_MESSAGE" value="Hibernate-SQL" />
+    <MESSAGE value="Hibernate-HQL in process 1" />
+    <option name="LAST_COMMIT_MESSAGE" value="Hibernate-HQL in process 1" />
   </component>
 </project>
