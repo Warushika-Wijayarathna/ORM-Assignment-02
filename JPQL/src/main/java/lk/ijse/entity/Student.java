@@ -1,8 +1,10 @@
 package lk.ijse.entity;
 
+import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
+import org.hibernate.engine.internal.Cascade;
 
 @Data
 @AllArgsConstructor
@@ -19,7 +21,7 @@ public class Student {
     @Column(name = "address")
     private String address;
 
-    @ManyToOne
+    @ManyToOne(cascade = CascadeType.ALL)
     @JoinColumn(name = "bid", referencedColumnName = "bid", nullable = false)
     private Batch batch;
 }
