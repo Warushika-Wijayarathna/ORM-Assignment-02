@@ -4,22 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="16dff02d-223b-47c4-aa8d-fa60069d6c2d" name="Changes" comment="Hibernate-HQL is done and JPQL creation">
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JPQL.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JPQL/META-INF/persistence.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JPQL/src/main/java/lk/ijse/config/JPQLFactoryConfiguration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JPQL/src/main/resources/META-INF/persistence.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ORM-Assignment-02.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/819e0e42-0be1-4940-95e2-8fbc308ed7fd.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/819e0e42-0be1-4940-95e2-8fbc308ed7fd.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JPQL/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/JPQL/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JPQL/src/main/java/lk/ijse/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/JPQL/src/main/java/lk/ijse/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JPQL/src/main/java/lk/ijse/entity/Batch.java" beforeDir="false" afterPath="$PROJECT_DIR$/JPQL/src/main/java/lk/ijse/entity/Batch.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JPQL/src/main/java/lk/ijse/entity/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/JPQL/src/main/java/lk/ijse/entity/Student.java" afterDir="false" />
-    </list>
+    <list default="true" id="16dff02d-223b-47c4-aa8d-fa60069d6c2d" name="Changes" comment="All done" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -94,7 +79,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1726560923692</updated>
-      <workItem from="1726560924875" duration="21915000" />
+      <workItem from="1726560924875" duration="22158000" />
     </task>
     <task id="LOCAL-00001" summary="Hibernate-SQL">
       <option name="closed" value="true" />
@@ -128,7 +113,23 @@
       <option name="project" value="LOCAL" />
       <updated>1726595018878</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="All done">
+      <option name="closed" value="true" />
+      <created>1726650808698</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1726650808698</updated>
+    </task>
+    <task id="LOCAL-00006" summary="All done">
+      <option name="closed" value="true" />
+      <created>1726650823637</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1726650823637</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -140,6 +141,7 @@
     <MESSAGE value="Hibernate-HQL in process 1" />
     <MESSAGE value="Hibernate-HQL in process 2" />
     <MESSAGE value="Hibernate-HQL is done and JPQL creation" />
-    <option name="LAST_COMMIT_MESSAGE" value="Hibernate-HQL is done and JPQL creation" />
+    <MESSAGE value="All done" />
+    <option name="LAST_COMMIT_MESSAGE" value="All done" />
   </component>
 </project>
